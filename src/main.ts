@@ -8,6 +8,7 @@ import { installRuntimeFetchPatch } from '@/services/runtime';
 import { loadDesktopSecrets } from '@/services/runtime-config';
 
 // Initialize Vercel Analytics
+// Required for new version
 inject();
 
 // Initialize dynamic meta tags for sharing
